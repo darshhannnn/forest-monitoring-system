@@ -4,6 +4,13 @@ An intelligent and scalable solution for real-time illegal logging detection, fo
 
 ---
 
+## 📊 Live Dashboard
+
+👉 **[View the Forest Monitoring Dashboard](https://pelagic-cycle-459808-u9.el.r.appspot.com/trend_dashboard.html)**  
+Monitor vegetation trends, deforestation alerts, and real-time anomaly detection across India.
+
+---
+
 ## 🏗️ System Architecture
 
 The system employs a **cloud-native architecture** with six main layers:

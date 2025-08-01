@@ -1,0 +1,35 @@
+[debug] [2025-06-19T03:49:03.339Z] ----------------------------------------------------------------------
+[debug] [2025-06-19T03:49:03.342Z] Command:       /usr/local/nvm/versions/node/v22.16.0/bin/node /usr/local/node_packages/node_modules/.bin/firebase login
+[debug] [2025-06-19T03:49:03.342Z] CLI Version:   13.28.0
+[debug] [2025-06-19T03:49:03.343Z] Platform:      linux
+[debug] [2025-06-19T03:49:03.343Z] Node Version:  v22.16.0
+[debug] [2025-06-19T03:49:03.343Z] Time:          Thu Jun 19 2025 03:49:03 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-06-19T03:49:03.343Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-19T03:49:03.346Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2025-06-19T03:49:03.867Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-06-19T03:49:03.868Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=497148522&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-06-19T03:50:42.526Z] ----------------------------------------------------------------------
+[debug] [2025-06-19T03:50:42.528Z] Command:       /usr/local/nvm/versions/node/v22.16.0/bin/node /usr/local/node_packages/node_modules/.bin/firebase login
+[debug] [2025-06-19T03:50:42.529Z] CLI Version:   13.28.0
+[debug] [2025-06-19T03:50:42.529Z] Platform:      linux
+[debug] [2025-06-19T03:50:42.529Z] Node Version:  v22.16.0
+[debug] [2025-06-19T03:50:42.529Z] Time:          Thu Jun 19 2025 03:50:42 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-06-19T03:50:42.533Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=872631385&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...

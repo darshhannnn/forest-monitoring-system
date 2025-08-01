@@ -1,0 +1,28 @@
+runtime: python312
+service: default
+
+handlers:
+# Make index.html the default landing page
+- url: /
+  static_files: index.html
+  upload: index.html
+
+# Route for advanced dashboard
+- url: /advanced
+  static_files: advanced_dashboard.html
+  upload: advanced_dashboard.html
+
+# Route for feature-rich dashboard  
+- url: /feature-rich
+  static_files: advanced_feature_rich_dashboard.html
+  upload: advanced_feature_rich_dashboard.html
+
+# Route for trends dashboard
+- url: /trends
+  static_files: trend_dashboard.html
+  upload: trend_dashboard.html
+
+# Serve all other static files
+- url: /(.*)
+  static_files: \1
+  upload: .*
